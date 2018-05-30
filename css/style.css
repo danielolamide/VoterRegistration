@@ -4,7 +4,7 @@ body{
 }
 #main{
 	margin:0 auto;
-	margin-top: 3em;
+	margin-top: 0.5em;
 	height: 60%;
 	width: 35%;
 	background-color: white;
@@ -49,19 +49,19 @@ form{
 }
 .iconName{
 	position: absolute;
-	top: 170px;
+	top: 140px;
 }
 .iconName1{
 	position: absolute;
-	top: 220px;
+	top: 190px;
 }
 .iconEmail{
 	position: absolute;
-	top: 270px;
+	top: 240px;
 }
 #iconID{
 	position: absolute;
-	top: 320px;
+	top: 290px;
 }
 .inline{
 	display: inline-block;
@@ -91,15 +91,23 @@ radio input[type="radio"]{
 }
 #calendarIcon{
 	position: absolute;
-	top:370px;
+	top:440px;
 }
 input[type="date"]{
 	border-color: black
 }
 #iconGender{
 	position: absolute;
-	top: 463px;
+	top: 530px;
 }
 input[type="checkbox"]:checked {
   color:#007FFF;
+}
+#iconPassword{
+	position: absolute;
+	top: 340px;
+}
+#iconPassword1{
+	position: absolute;
+	top: 390px;
 }
